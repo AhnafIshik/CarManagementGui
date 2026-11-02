@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coit11134.carmanagementgui.MainMenuController">
+   <children>
+      <Label layoutX="67.0" layoutY="46.0" text="Car Management" textFill="#4826ed">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAdd" layoutX="21.0" layoutY="115.0" onAction="#addCarAction" text="Add a new car" />
+      <Button fx:id="btnViewAll" layoutX="28.0" layoutY="178.0" onAction="#viewAllAction" text="View all cars" />
+      <Button fx:id="btnSearch" layoutX="28.0" layoutY="241.0" onAction="#searchAction" text="Search for a car" />
+      <TextArea fx:id="txtDisplay" layoutX="167.0" layoutY="115.0" prefHeight="164.0" prefWidth="380.0" />
+      <Button fx:id="btnSaveExit" layoutX="447.0" layoutY="279.0" onAction="#saveExitAction" text="Save and Exit" />
+      <Label layoutX="198.0" layoutY="369.0" text="Developed by Mushfiq Ahnaf Ishik (SID: 12282758)" textFill="#0b22d0" />
+   </children>
+</AnchorPane>

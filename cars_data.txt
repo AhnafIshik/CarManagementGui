@@ -1,0 +1,5 @@
+100,Toyota,Camry,2023,23000.0,used
+101,Hyundai,Tucson Hybrid,2024,40000.0,new
+102,Audi,SQ8,2022,38000.0,used
+123,BMW,M5,2024,200000.0,New
+160,BMW,X10,2024,50000.0,New
